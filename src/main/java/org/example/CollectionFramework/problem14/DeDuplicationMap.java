@@ -9,7 +9,6 @@ public class DeDuplicationMap {
     public static <T> List<T> deDuplication(List<T> list){
         List<T> result = new ArrayList<>();
         Map<T,Boolean> map = new HashMap<>();
-
         for (T i : list){
             if (!map.containsKey(i)){
                 map.put(i,true);
