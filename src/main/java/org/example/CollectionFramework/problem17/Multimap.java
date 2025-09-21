@@ -29,6 +29,8 @@ public class Multimap {
             entry.getValue().forEach(value-> System.out.println("values -> : " + value));
         });
 
+        System.out.println(multimap.get("fruits"));
+
     }
 
 }
